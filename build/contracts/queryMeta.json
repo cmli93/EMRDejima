@@ -1,0 +1,2085 @@
+{
+  "contractName": "queryMeta",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "roles",
+      "outputs": [
+        {
+          "name": "name",
+          "type": "string"
+        },
+        {
+          "name": "id",
+          "type": "uint256"
+        },
+        {
+          "name": "roleNum",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "EMRMetas",
+      "outputs": [
+        {
+          "name": "owner",
+          "type": "uint256"
+        },
+        {
+          "name": "timestamp",
+          "type": "string"
+        },
+        {
+          "name": "allowedRole",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x608060405234801561001057600080fd5b506060604051908101604052806040805190810160405280600581526020017f416c696365000000000000000000000000000000000000000000000000000000815250815260200161037881526020016001815250600160008081526020019081526020016000206000820151816000019080519060200190610094929190610280565b5060208201518160010155604082015181600201559050506060604051908101604052806040805190810160405280600381526020017f426f62000000000000000000000000000000000000000000000000000000000081525081526020016057815260200160048152506001600060018152602001908152602001600020600082015181600001908051906020019061012f929190610280565b506020820151816001015560408201518160020155905050606060405190810160405280607b81526020016040805190810160405280600881526020017f3230313831313138000000000000000000000000000000000000000000000000815250815260200160018152506000808081526020019081526020016000206000820151816000015560208201518160010190805190602001906101d2929190610280565b50604082015181600201559050506060604051908101604052806101c881526020016040805190810160405280600881526020017f3230313831313139000000000000000000000000000000000000000000000000815250815260200160048152506000806001815260200190815260200160002060008201518160000155602082015181600101908051906020019061026d929190610280565b5060408201518160020155905050610325565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f106102c157805160ff19168380011785556102ef565b828001600101855582156102ef579182015b828111156102ee5782518255916020019190600101906102d3565b5b5090506102fc9190610300565b5090565b61032291905b8082111561031e576000816000905550600101610306565b5090565b90565b610369806103346000396000f30060806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063bfda4a4914610051578063feb6895914610105575b600080fd5b34801561005d57600080fd5b5061007c600480360381019080803590602001909291905050506101b9565b6040518080602001848152602001838152602001828103825285818151815260200191508051906020019080838360005b838110156100c85780820151818401526020810190506100ad565b50505050905090810190601f1680156100f55780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b34801561011157600080fd5b506101306004803603810190808035906020019092919050505061027b565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b8381101561017c578082015181840152602081019050610161565b50505050905090810190601f1680156101a95780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b6001602052806000526040600020600091509050806000018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102655780601f1061023a57610100808354040283529160200191610265565b820191906000526020600020905b81548152906001019060200180831161024857829003601f168201915b5050505050908060010154908060020154905083565b6000602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561032d5780601f106103025761010080835404028352916020019161032d565b820191906000526020600020905b81548152906001019060200180831161031057829003601f168201915b50505050509080600201549050835600a165627a7a7230582069601f937ddb28c4f617ee90d7ae0965d514339f0db3eff2f04142412df771b90029",
+  "deployedBytecode": "0x60806040526004361061004c576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063bfda4a4914610051578063feb6895914610105575b600080fd5b34801561005d57600080fd5b5061007c600480360381019080803590602001909291905050506101b9565b6040518080602001848152602001838152602001828103825285818151815260200191508051906020019080838360005b838110156100c85780820151818401526020810190506100ad565b50505050905090810190601f1680156100f55780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b34801561011157600080fd5b506101306004803603810190808035906020019092919050505061027b565b6040518084815260200180602001838152602001828103825284818151815260200191508051906020019080838360005b8381101561017c578082015181840152602081019050610161565b50505050905090810190601f1680156101a95780820380516001836020036101000a031916815260200191505b5094505050505060405180910390f35b6001602052806000526040600020600091509050806000018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156102655780601f1061023a57610100808354040283529160200191610265565b820191906000526020600020905b81548152906001019060200180831161024857829003601f168201915b5050505050908060010154908060020154905083565b6000602052806000526040600020600091509050806000015490806001018054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561032d5780601f106103025761010080835404028352916020019161032d565b820191906000526020600020905b81548152906001019060200180831161031057829003601f168201915b50505050509080600201549050835600a165627a7a7230582069601f937ddb28c4f617ee90d7ae0965d514339f0db3eff2f04142412df771b90029",
+  "sourceMap": "27:1232:1:-;;;893:342;8:9:-1;5:2;;;30:1;27;20:12;5:2;893:342:1;989:21;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1003:3;989:21;;;;1008:1;989:21;;;978:5;:8;984:1;978:8;;;;;;;;;;;:32;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;1043:18;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1055:2;1043:18;;;;1059:1;1043:18;;;1032:5;:8;1038:1;1032:8;;;;;;;;;;;:29;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;1147:27;;;;;;;;;1155:3;1147:27;;;;;;;;;;;;;;;;;;;;;;;;;;1172:1;1147:27;;;1133:8;:11;1142:1;1133:11;;;;;;;;;;;:41;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;1201:27;;;;;;;;;1209:3;1201:27;;;;;;;;;;;;;;;;;;;;;;;;;;1226:1;1201:27;;;1187:8;:11;1196:1;1187:11;;;;;;;;;;;:41;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;27:1232;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "27:1232:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;681:35;;8:9:-1;5:2;;;30:1;27;20:12;5:2;681:35:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;681:35:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;274:41;;8:9:-1;5:2;;;30:1;27;20:12;5:2;274:41:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;80:1;75:3;71:11;64:39;52:2;49:1;45:10;40:15;;8:100;;;12:14;274:41:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;681:35;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;274:41::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity  ^0.4.24;\n\ncontract queryMeta {\n\n    //Model metadata of EMR\n    struct EMRMeta {\n        uint owner; //patient ID; public will have getter and setter function automatically\n        string timestamp;\n        uint allowedRole;\n    }\n\n    //Store EMRMetas\n    mapping (uint => EMRMeta) public EMRMetas;\n\n    struct Role{\n      string name; //name of doctor or patient\n      uint id;\n      uint roleNum; /*\n                    consider doctor only for the time being:\n                      1 -> doctor\n                      2 -> analyzer\n                      3 -> insurance\n                      4->  patient\n                        */\n    }\n\n    //Store　roles\n    mapping (uint => Role) public roles;\n\n    /*\n     * Contructor, will run whenever we deploy the contract to the blockchain\n     * (initialized contract upon migration)\n     * same name as the contract\n    */\n    function queryMeta () public {\n           //先直接初始化一些roles\n           roles[0] = Role(\"Alice\", 888, 1); //doctor\n           roles[1] = Role(\"Bob\", 87, 4); //a patient\n\n           //先直接初始化一些EMRMetas\n           EMRMetas[0] = EMRMeta(123, \"20181118\", 1);\n           EMRMetas[1] = EMRMeta(456, \"20181119\", 4);\n    }\n\n    //Read EMRMetas\n\n}\n",
+  "sourcePath": "/Users/lichunmiao/Desktop/研究/EMRDejima/contracts/queryMeta.sol",
+  "ast": {
+    "absolutePath": "/Users/lichunmiao/Desktop/研究/EMRDejima/contracts/queryMeta.sol",
+    "exportedSymbols": {
+      "queryMeta": [
+        125
+      ]
+    },
+    "id": 126,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:25:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 125,
+        "linearizedBaseContracts": [
+          125
+        ],
+        "name": "queryMeta",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "queryMeta.EMRMeta",
+            "id": 65,
+            "members": [
+              {
+                "constant": false,
+                "id": 60,
+                "name": "owner",
+                "nodeType": "VariableDeclaration",
+                "scope": 65,
+                "src": "106:10:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 59,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "106:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 62,
+                "name": "timestamp",
+                "nodeType": "VariableDeclaration",
+                "scope": 65,
+                "src": "198:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 61,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "198:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 64,
+                "name": "allowedRole",
+                "nodeType": "VariableDeclaration",
+                "scope": 65,
+                "src": "224:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 63,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "224:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "EMRMeta",
+            "nodeType": "StructDefinition",
+            "scope": 125,
+            "src": "81:166:1",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 69,
+            "name": "EMRMetas",
+            "nodeType": "VariableDeclaration",
+            "scope": 125,
+            "src": "274:41:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_EMRMeta_$65_storage_$",
+              "typeString": "mapping(uint256 => struct queryMeta.EMRMeta)"
+            },
+            "typeName": {
+              "id": 68,
+              "keyType": {
+                "id": 66,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "283:4:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "274:25:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_EMRMeta_$65_storage_$",
+                "typeString": "mapping(uint256 => struct queryMeta.EMRMeta)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 67,
+                "name": "EMRMeta",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 65,
+                "src": "291:7:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_EMRMeta_$65_storage_ptr",
+                  "typeString": "struct queryMeta.EMRMeta"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "queryMeta.Role",
+            "id": 76,
+            "members": [
+              {
+                "constant": false,
+                "id": 71,
+                "name": "name",
+                "nodeType": "VariableDeclaration",
+                "scope": 76,
+                "src": "341:11:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 70,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "341:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 73,
+                "name": "id",
+                "nodeType": "VariableDeclaration",
+                "scope": 76,
+                "src": "388:7:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 72,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "388:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 75,
+                "name": "roleNum",
+                "nodeType": "VariableDeclaration",
+                "scope": 76,
+                "src": "403:12:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 74,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "403:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Role",
+            "nodeType": "StructDefinition",
+            "scope": 125,
+            "src": "322:333:1",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 80,
+            "name": "roles",
+            "nodeType": "VariableDeclaration",
+            "scope": 125,
+            "src": "681:35:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Role_$76_storage_$",
+              "typeString": "mapping(uint256 => struct queryMeta.Role)"
+            },
+            "typeName": {
+              "id": 79,
+              "keyType": {
+                "id": 77,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "690:4:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "681:22:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Role_$76_storage_$",
+                "typeString": "mapping(uint256 => struct queryMeta.Role)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 78,
+                "name": "Role",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 76,
+                "src": "698:4:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Role_$76_storage_ptr",
+                  "typeString": "struct queryMeta.Role"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 123,
+              "nodeType": "Block",
+              "src": "922:313:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 91,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 83,
+                        "name": "roles",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 80,
+                        "src": "978:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Role_$76_storage_$",
+                          "typeString": "mapping(uint256 => struct queryMeta.Role storage ref)"
+                        }
+                      },
+                      "id": 85,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "hexValue": "30",
+                        "id": 84,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "984:1:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "978:8:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Role_$76_storage",
+                        "typeString": "struct queryMeta.Role storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "416c696365",
+                          "id": 87,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "994:7:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_81376b9868b292a46a1c486d344e427a3088657fda629b5f4a647822d329cd6a",
+                            "typeString": "literal_string \"Alice\""
+                          },
+                          "value": "Alice"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "383838",
+                          "id": 88,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1003:3:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_888_by_1",
+                            "typeString": "int_const 888"
+                          },
+                          "value": "888"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "31",
+                          "id": 89,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1008:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_stringliteral_81376b9868b292a46a1c486d344e427a3088657fda629b5f4a647822d329cd6a",
+                            "typeString": "literal_string \"Alice\""
+                          },
+                          {
+                            "typeIdentifier": "t_rational_888_by_1",
+                            "typeString": "int_const 888"
+                          },
+                          {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          }
+                        ],
+                        "id": 86,
+                        "name": "Role",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 76,
+                        "src": "989:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Role_$76_storage_ptr_$",
+                          "typeString": "type(struct queryMeta.Role storage pointer)"
+                        }
+                      },
+                      "id": 90,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "989:21:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Role_$76_memory",
+                        "typeString": "struct queryMeta.Role memory"
+                      }
+                    },
+                    "src": "978:32:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Role_$76_storage",
+                      "typeString": "struct queryMeta.Role storage ref"
+                    }
+                  },
+                  "id": 92,
+                  "nodeType": "ExpressionStatement",
+                  "src": "978:32:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 101,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 93,
+                        "name": "roles",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 80,
+                        "src": "1032:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Role_$76_storage_$",
+                          "typeString": "mapping(uint256 => struct queryMeta.Role storage ref)"
+                        }
+                      },
+                      "id": 95,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "hexValue": "31",
+                        "id": 94,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1038:1:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        },
+                        "value": "1"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1032:8:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Role_$76_storage",
+                        "typeString": "struct queryMeta.Role storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "426f62",
+                          "id": 97,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1048:5:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_28cac318a86c8a0a6a9156c2dba2c8c2363677ba0514ef616592d81557e679b6",
+                            "typeString": "literal_string \"Bob\""
+                          },
+                          "value": "Bob"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "3837",
+                          "id": 98,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1055:2:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_87_by_1",
+                            "typeString": "int_const 87"
+                          },
+                          "value": "87"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "34",
+                          "id": 99,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1059:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_4_by_1",
+                            "typeString": "int_const 4"
+                          },
+                          "value": "4"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_stringliteral_28cac318a86c8a0a6a9156c2dba2c8c2363677ba0514ef616592d81557e679b6",
+                            "typeString": "literal_string \"Bob\""
+                          },
+                          {
+                            "typeIdentifier": "t_rational_87_by_1",
+                            "typeString": "int_const 87"
+                          },
+                          {
+                            "typeIdentifier": "t_rational_4_by_1",
+                            "typeString": "int_const 4"
+                          }
+                        ],
+                        "id": 96,
+                        "name": "Role",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 76,
+                        "src": "1043:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Role_$76_storage_ptr_$",
+                          "typeString": "type(struct queryMeta.Role storage pointer)"
+                        }
+                      },
+                      "id": 100,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1043:18:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Role_$76_memory",
+                        "typeString": "struct queryMeta.Role memory"
+                      }
+                    },
+                    "src": "1032:29:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Role_$76_storage",
+                      "typeString": "struct queryMeta.Role storage ref"
+                    }
+                  },
+                  "id": 102,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1032:29:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 111,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 103,
+                        "name": "EMRMetas",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 69,
+                        "src": "1133:8:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_EMRMeta_$65_storage_$",
+                          "typeString": "mapping(uint256 => struct queryMeta.EMRMeta storage ref)"
+                        }
+                      },
+                      "id": 105,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "hexValue": "30",
+                        "id": 104,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1142:1:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1133:11:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_EMRMeta_$65_storage",
+                        "typeString": "struct queryMeta.EMRMeta storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "313233",
+                          "id": 107,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1155:3:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_123_by_1",
+                            "typeString": "int_const 123"
+                          },
+                          "value": "123"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "3230313831313138",
+                          "id": 108,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1160:10:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_d2c3d4c370f09864b29681268d7b1f4da6a6d484a15af9646af9086e733236b2",
+                            "typeString": "literal_string \"20181118\""
+                          },
+                          "value": "20181118"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "31",
+                          "id": 109,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1172:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_123_by_1",
+                            "typeString": "int_const 123"
+                          },
+                          {
+                            "typeIdentifier": "t_stringliteral_d2c3d4c370f09864b29681268d7b1f4da6a6d484a15af9646af9086e733236b2",
+                            "typeString": "literal_string \"20181118\""
+                          },
+                          {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          }
+                        ],
+                        "id": 106,
+                        "name": "EMRMeta",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 65,
+                        "src": "1147:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_EMRMeta_$65_storage_ptr_$",
+                          "typeString": "type(struct queryMeta.EMRMeta storage pointer)"
+                        }
+                      },
+                      "id": 110,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1147:27:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_EMRMeta_$65_memory",
+                        "typeString": "struct queryMeta.EMRMeta memory"
+                      }
+                    },
+                    "src": "1133:41:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_EMRMeta_$65_storage",
+                      "typeString": "struct queryMeta.EMRMeta storage ref"
+                    }
+                  },
+                  "id": 112,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1133:41:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 121,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 113,
+                        "name": "EMRMetas",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 69,
+                        "src": "1187:8:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_EMRMeta_$65_storage_$",
+                          "typeString": "mapping(uint256 => struct queryMeta.EMRMeta storage ref)"
+                        }
+                      },
+                      "id": 115,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "hexValue": "31",
+                        "id": 114,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1196:1:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        },
+                        "value": "1"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1187:11:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_EMRMeta_$65_storage",
+                        "typeString": "struct queryMeta.EMRMeta storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "343536",
+                          "id": 117,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1209:3:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_456_by_1",
+                            "typeString": "int_const 456"
+                          },
+                          "value": "456"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "3230313831313139",
+                          "id": 118,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1214:10:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_1cc125253bb95189436004a81eb5b998814efa343f12fae47e01038242bc36b2",
+                            "typeString": "literal_string \"20181119\""
+                          },
+                          "value": "20181119"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "34",
+                          "id": 119,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1226:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_4_by_1",
+                            "typeString": "int_const 4"
+                          },
+                          "value": "4"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_456_by_1",
+                            "typeString": "int_const 456"
+                          },
+                          {
+                            "typeIdentifier": "t_stringliteral_1cc125253bb95189436004a81eb5b998814efa343f12fae47e01038242bc36b2",
+                            "typeString": "literal_string \"20181119\""
+                          },
+                          {
+                            "typeIdentifier": "t_rational_4_by_1",
+                            "typeString": "int_const 4"
+                          }
+                        ],
+                        "id": 116,
+                        "name": "EMRMeta",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 65,
+                        "src": "1201:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_EMRMeta_$65_storage_ptr_$",
+                          "typeString": "type(struct queryMeta.EMRMeta storage pointer)"
+                        }
+                      },
+                      "id": 120,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1201:27:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_EMRMeta_$65_memory",
+                        "typeString": "struct queryMeta.EMRMeta memory"
+                      }
+                    },
+                    "src": "1187:41:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_EMRMeta_$65_storage",
+                      "typeString": "struct queryMeta.EMRMeta storage ref"
+                    }
+                  },
+                  "id": 122,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1187:41:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 124,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "queryMeta",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 81,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "912:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 82,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "922:0:1"
+            },
+            "scope": 125,
+            "src": "893:342:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 126,
+        "src": "27:1232:1"
+      }
+    ],
+    "src": "0:1260:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/lichunmiao/Desktop/研究/EMRDejima/contracts/queryMeta.sol",
+    "exportedSymbols": {
+      "queryMeta": [
+        125
+      ]
+    },
+    "id": 126,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:25:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 125,
+        "linearizedBaseContracts": [
+          125
+        ],
+        "name": "queryMeta",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "queryMeta.EMRMeta",
+            "id": 65,
+            "members": [
+              {
+                "constant": false,
+                "id": 60,
+                "name": "owner",
+                "nodeType": "VariableDeclaration",
+                "scope": 65,
+                "src": "106:10:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 59,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "106:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 62,
+                "name": "timestamp",
+                "nodeType": "VariableDeclaration",
+                "scope": 65,
+                "src": "198:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 61,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "198:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 64,
+                "name": "allowedRole",
+                "nodeType": "VariableDeclaration",
+                "scope": 65,
+                "src": "224:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 63,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "224:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "EMRMeta",
+            "nodeType": "StructDefinition",
+            "scope": 125,
+            "src": "81:166:1",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 69,
+            "name": "EMRMetas",
+            "nodeType": "VariableDeclaration",
+            "scope": 125,
+            "src": "274:41:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_EMRMeta_$65_storage_$",
+              "typeString": "mapping(uint256 => struct queryMeta.EMRMeta)"
+            },
+            "typeName": {
+              "id": 68,
+              "keyType": {
+                "id": 66,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "283:4:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "274:25:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_EMRMeta_$65_storage_$",
+                "typeString": "mapping(uint256 => struct queryMeta.EMRMeta)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 67,
+                "name": "EMRMeta",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 65,
+                "src": "291:7:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_EMRMeta_$65_storage_ptr",
+                  "typeString": "struct queryMeta.EMRMeta"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "canonicalName": "queryMeta.Role",
+            "id": 76,
+            "members": [
+              {
+                "constant": false,
+                "id": 71,
+                "name": "name",
+                "nodeType": "VariableDeclaration",
+                "scope": 76,
+                "src": "341:11:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                },
+                "typeName": {
+                  "id": 70,
+                  "name": "string",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "341:6:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_string_storage_ptr",
+                    "typeString": "string"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 73,
+                "name": "id",
+                "nodeType": "VariableDeclaration",
+                "scope": 76,
+                "src": "388:7:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 72,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "388:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 75,
+                "name": "roleNum",
+                "nodeType": "VariableDeclaration",
+                "scope": 76,
+                "src": "403:12:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 74,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "403:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "value": null,
+                "visibility": "internal"
+              }
+            ],
+            "name": "Role",
+            "nodeType": "StructDefinition",
+            "scope": 125,
+            "src": "322:333:1",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 80,
+            "name": "roles",
+            "nodeType": "VariableDeclaration",
+            "scope": 125,
+            "src": "681:35:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Role_$76_storage_$",
+              "typeString": "mapping(uint256 => struct queryMeta.Role)"
+            },
+            "typeName": {
+              "id": 79,
+              "keyType": {
+                "id": 77,
+                "name": "uint",
+                "nodeType": "ElementaryTypeName",
+                "src": "690:4:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "681:22:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Role_$76_storage_$",
+                "typeString": "mapping(uint256 => struct queryMeta.Role)"
+              },
+              "valueType": {
+                "contractScope": null,
+                "id": 78,
+                "name": "Role",
+                "nodeType": "UserDefinedTypeName",
+                "referencedDeclaration": 76,
+                "src": "698:4:1",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Role_$76_storage_ptr",
+                  "typeString": "struct queryMeta.Role"
+                }
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 123,
+              "nodeType": "Block",
+              "src": "922:313:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 91,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 83,
+                        "name": "roles",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 80,
+                        "src": "978:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Role_$76_storage_$",
+                          "typeString": "mapping(uint256 => struct queryMeta.Role storage ref)"
+                        }
+                      },
+                      "id": 85,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "hexValue": "30",
+                        "id": 84,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "984:1:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "978:8:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Role_$76_storage",
+                        "typeString": "struct queryMeta.Role storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "416c696365",
+                          "id": 87,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "994:7:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_81376b9868b292a46a1c486d344e427a3088657fda629b5f4a647822d329cd6a",
+                            "typeString": "literal_string \"Alice\""
+                          },
+                          "value": "Alice"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "383838",
+                          "id": 88,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1003:3:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_888_by_1",
+                            "typeString": "int_const 888"
+                          },
+                          "value": "888"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "31",
+                          "id": 89,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1008:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_stringliteral_81376b9868b292a46a1c486d344e427a3088657fda629b5f4a647822d329cd6a",
+                            "typeString": "literal_string \"Alice\""
+                          },
+                          {
+                            "typeIdentifier": "t_rational_888_by_1",
+                            "typeString": "int_const 888"
+                          },
+                          {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          }
+                        ],
+                        "id": 86,
+                        "name": "Role",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 76,
+                        "src": "989:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Role_$76_storage_ptr_$",
+                          "typeString": "type(struct queryMeta.Role storage pointer)"
+                        }
+                      },
+                      "id": 90,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "989:21:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Role_$76_memory",
+                        "typeString": "struct queryMeta.Role memory"
+                      }
+                    },
+                    "src": "978:32:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Role_$76_storage",
+                      "typeString": "struct queryMeta.Role storage ref"
+                    }
+                  },
+                  "id": 92,
+                  "nodeType": "ExpressionStatement",
+                  "src": "978:32:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 101,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 93,
+                        "name": "roles",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 80,
+                        "src": "1032:5:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Role_$76_storage_$",
+                          "typeString": "mapping(uint256 => struct queryMeta.Role storage ref)"
+                        }
+                      },
+                      "id": 95,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "hexValue": "31",
+                        "id": 94,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1038:1:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        },
+                        "value": "1"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1032:8:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Role_$76_storage",
+                        "typeString": "struct queryMeta.Role storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "426f62",
+                          "id": 97,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1048:5:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_28cac318a86c8a0a6a9156c2dba2c8c2363677ba0514ef616592d81557e679b6",
+                            "typeString": "literal_string \"Bob\""
+                          },
+                          "value": "Bob"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "3837",
+                          "id": 98,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1055:2:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_87_by_1",
+                            "typeString": "int_const 87"
+                          },
+                          "value": "87"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "34",
+                          "id": 99,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1059:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_4_by_1",
+                            "typeString": "int_const 4"
+                          },
+                          "value": "4"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_stringliteral_28cac318a86c8a0a6a9156c2dba2c8c2363677ba0514ef616592d81557e679b6",
+                            "typeString": "literal_string \"Bob\""
+                          },
+                          {
+                            "typeIdentifier": "t_rational_87_by_1",
+                            "typeString": "int_const 87"
+                          },
+                          {
+                            "typeIdentifier": "t_rational_4_by_1",
+                            "typeString": "int_const 4"
+                          }
+                        ],
+                        "id": 96,
+                        "name": "Role",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 76,
+                        "src": "1043:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_Role_$76_storage_ptr_$",
+                          "typeString": "type(struct queryMeta.Role storage pointer)"
+                        }
+                      },
+                      "id": 100,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1043:18:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Role_$76_memory",
+                        "typeString": "struct queryMeta.Role memory"
+                      }
+                    },
+                    "src": "1032:29:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Role_$76_storage",
+                      "typeString": "struct queryMeta.Role storage ref"
+                    }
+                  },
+                  "id": 102,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1032:29:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 111,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 103,
+                        "name": "EMRMetas",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 69,
+                        "src": "1133:8:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_EMRMeta_$65_storage_$",
+                          "typeString": "mapping(uint256 => struct queryMeta.EMRMeta storage ref)"
+                        }
+                      },
+                      "id": 105,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "hexValue": "30",
+                        "id": 104,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1142:1:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_0_by_1",
+                          "typeString": "int_const 0"
+                        },
+                        "value": "0"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1133:11:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_EMRMeta_$65_storage",
+                        "typeString": "struct queryMeta.EMRMeta storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "313233",
+                          "id": 107,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1155:3:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_123_by_1",
+                            "typeString": "int_const 123"
+                          },
+                          "value": "123"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "3230313831313138",
+                          "id": 108,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1160:10:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_d2c3d4c370f09864b29681268d7b1f4da6a6d484a15af9646af9086e733236b2",
+                            "typeString": "literal_string \"20181118\""
+                          },
+                          "value": "20181118"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "31",
+                          "id": 109,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1172:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          },
+                          "value": "1"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_123_by_1",
+                            "typeString": "int_const 123"
+                          },
+                          {
+                            "typeIdentifier": "t_stringliteral_d2c3d4c370f09864b29681268d7b1f4da6a6d484a15af9646af9086e733236b2",
+                            "typeString": "literal_string \"20181118\""
+                          },
+                          {
+                            "typeIdentifier": "t_rational_1_by_1",
+                            "typeString": "int_const 1"
+                          }
+                        ],
+                        "id": 106,
+                        "name": "EMRMeta",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 65,
+                        "src": "1147:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_EMRMeta_$65_storage_ptr_$",
+                          "typeString": "type(struct queryMeta.EMRMeta storage pointer)"
+                        }
+                      },
+                      "id": 110,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1147:27:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_EMRMeta_$65_memory",
+                        "typeString": "struct queryMeta.EMRMeta memory"
+                      }
+                    },
+                    "src": "1133:41:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_EMRMeta_$65_storage",
+                      "typeString": "struct queryMeta.EMRMeta storage ref"
+                    }
+                  },
+                  "id": 112,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1133:41:1"
+                },
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 121,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "baseExpression": {
+                        "argumentTypes": null,
+                        "id": 113,
+                        "name": "EMRMetas",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 69,
+                        "src": "1187:8:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_EMRMeta_$65_storage_$",
+                          "typeString": "mapping(uint256 => struct queryMeta.EMRMeta storage ref)"
+                        }
+                      },
+                      "id": 115,
+                      "indexExpression": {
+                        "argumentTypes": null,
+                        "hexValue": "31",
+                        "id": 114,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "number",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "1196:1:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_rational_1_by_1",
+                          "typeString": "int_const 1"
+                        },
+                        "value": "1"
+                      },
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "nodeType": "IndexAccess",
+                      "src": "1187:11:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_EMRMeta_$65_storage",
+                        "typeString": "struct queryMeta.EMRMeta storage ref"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "343536",
+                          "id": 117,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1209:3:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_456_by_1",
+                            "typeString": "int_const 456"
+                          },
+                          "value": "456"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "3230313831313139",
+                          "id": 118,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "string",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1214:10:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_stringliteral_1cc125253bb95189436004a81eb5b998814efa343f12fae47e01038242bc36b2",
+                            "typeString": "literal_string \"20181119\""
+                          },
+                          "value": "20181119"
+                        },
+                        {
+                          "argumentTypes": null,
+                          "hexValue": "34",
+                          "id": 119,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "kind": "number",
+                          "lValueRequested": false,
+                          "nodeType": "Literal",
+                          "src": "1226:1:1",
+                          "subdenomination": null,
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_rational_4_by_1",
+                            "typeString": "int_const 4"
+                          },
+                          "value": "4"
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_rational_456_by_1",
+                            "typeString": "int_const 456"
+                          },
+                          {
+                            "typeIdentifier": "t_stringliteral_1cc125253bb95189436004a81eb5b998814efa343f12fae47e01038242bc36b2",
+                            "typeString": "literal_string \"20181119\""
+                          },
+                          {
+                            "typeIdentifier": "t_rational_4_by_1",
+                            "typeString": "int_const 4"
+                          }
+                        ],
+                        "id": 116,
+                        "name": "EMRMeta",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 65,
+                        "src": "1201:7:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_struct$_EMRMeta_$65_storage_ptr_$",
+                          "typeString": "type(struct queryMeta.EMRMeta storage pointer)"
+                        }
+                      },
+                      "id": 120,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "structConstructorCall",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "1201:27:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_EMRMeta_$65_memory",
+                        "typeString": "struct queryMeta.EMRMeta memory"
+                      }
+                    },
+                    "src": "1187:41:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_EMRMeta_$65_storage",
+                      "typeString": "struct queryMeta.EMRMeta storage ref"
+                    }
+                  },
+                  "id": 122,
+                  "nodeType": "ExpressionStatement",
+                  "src": "1187:41:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 124,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "queryMeta",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 81,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "912:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 82,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "922:0:1"
+            },
+            "scope": 125,
+            "src": "893:342:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 126,
+        "src": "27:1232:1"
+      }
+    ],
+    "src": "0:1260:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x971ea4def6e5def771bbc2e9a9b6a2979d69a96c",
+      "transactionHash": "0xa4086fa21b733ca78ca62cd72542c5f9fb625304a0f89a7f9378d590ba383871"
+    }
+  },
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-11-18T11:30:14.974Z"
+}
