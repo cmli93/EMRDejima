@@ -31,7 +31,7 @@ App = {
       // Connect provider to interact with contract
       App.contracts.queryMeta.setProvider(App.web3Provider);
 
-      App.listenForEvents(); //call listenForEvents
+      App.listenForEvents(); //call listenForEvents, now is for update
 
       return App.render();
     });
@@ -126,6 +126,27 @@ App = {
     {
       console.error(err);
     });
+  },
+
+  addMeta: function()
+  {
+    var _owner = $('#newOwner').val() * 1; //transform string to number
+    var _timestamp = $('#newTimestamp').val();
+    var _allowedRole = $('#newAllowedRole').val() * 1;
+
+    App.contracts.queryMeta.deployed().then(function(instance)
+    {
+      return instance.addMetas(_owner, _timestamp, _allowedRole, { from: App.account });
+    }).then(function(result)
+    {
+      // Wait for Meta update
+      $("#content").hide();
+      $("#loader").show();
+    }).catch(function(err)
+    {
+      console.error(err);
+    });
+
   }
 };
 

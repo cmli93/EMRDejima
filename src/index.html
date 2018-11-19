@@ -34,7 +34,7 @@
                 <tr>
                   <th scope="col">Owner (patient ID)</th>
                   <th scope="col">Timestamp (last modified)</th>
-                  <th scope="col">allowedRole</th>
+                  <th scope="col">AllowedRole</th>
                 </tr>
               </thead>
               <tbody id="EMRMetasResults">
@@ -54,6 +54,29 @@
 
               <button type="submit" class="btn btn-primary">choose</button>
 
+              <hr />
+            </form>
+
+            <!-- onSubmit handler handle when submit-->
+            <form onSubmit="App.addMeta(); return false;">
+              <div class="form-group">
+                <label for="EMRMetaAdd">Please add a new record </label>
+
+                <br>
+                Owner (patient ID):<br>
+                <input class="form-control" type="text" id="newOwner">
+                <br><br>
+
+                Timestamp:<br>
+                <input class="form-control" type="text" id="newTimestamp">
+                <br><br>
+
+                AllowedRole:<br>
+                <input class="form-control" type="text" id="newAllowedRole">
+                <br><br>
+              </div>
+
+              <button type="submit" class="btn btn-primary">add</button>
               <hr />
             </form>
 

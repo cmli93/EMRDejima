@@ -59,7 +59,7 @@ contract queryMeta {
     }
 
     //add a new medical metadata
-    function addMetas (uint _owner, string _timestamp, uint _allowedRole) private{
+    function addMetas (uint _owner, string _timestamp, uint _allowedRole) public{
         //addMetas　string _timestamp can be get automatically later (solidity date)
 
         //check role to be allowed to addEMRMetas
