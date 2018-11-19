@@ -24,4 +24,4 @@
 
 Then your chrome explorer will open the webpage automatically. (If not, please open your metamask)
 
-Next, start interact with it.
+Next, start to interact with it.
